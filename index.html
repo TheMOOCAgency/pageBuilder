@@ -57,6 +57,42 @@
 		 margin-top:10px;
 		 }
 		 
+		 .moocIco{
+		 width: 70%;
+	 }
+		 
+		 .box{text-align:center;padding:12%}
+		 
+		 .colvid{
+		 height:auto;
+		 vertical-align:middle;
+		 }
+		 
+		  .colvidtext{
+
+
+justify-content: center;
+		 }
+		 
+		 
+
+		 .tableT{display:table}
+		 .tableChild{display: table-cell;
+vertical-align: middle;}
+
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+		 
       </style>
       </div>
       <nav class="navbar navbar-default">
@@ -98,91 +134,35 @@
             </div>
          </div>
       </section>
+	  
+	   <section id="videoTeaser">
+         <div class="row row-eq-height">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 colvid" style="background: #00000036;padding: 4%;">
+            	<div class="embed-responsive embed-responsive-4by3">
+		<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/352431392" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+	</div>
+            </div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 colvidtext tableT" style="background: #00000036;padding: 4%;">
+               <div class="tableChild">
+                  <h1>My First Bootstrap Page</h1>
+                  <p>This is some text.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+	  
 		<section>
 		
 		<div style="background-color:white;margin-top:80px;height:auto;z-index:1;position:relative;">
          <div class="container">
-            <div class="row" style="/*text-align:center;*/background-color:rgba(255,255,255,0);">
+            <div class="row" id ="markWeeks"style="/*text-align:center;*/background-color:rgba(255,255,255,0);">
                <div class="col-md-12">
                   <h2 class="text-center" style="margin-bottom:40px;padding-top:60px;color:#C2CC37;font-size:23px;font-size: 23px;
                      font-weight: bold;">Découvrez en 4 semaines comment concevoir une ville-nature.</h2>
                </div>
-               <div class="col-md-4" style="text-align:center;/*float:none;*/background-color:rgba(0,67,104,0);">
-                  <div class="thumbnail">
-                     <img src="/media/microsite/nature-for-city-life/assets/img/1.jpg" style="height:233px;">
-                     <div class="caption">
-                        <h3 style="font-family:'Carrois Gothic', sans-serif;color:#000;font-weight:bold;height:97px;">Nature en ville et biodiversité : généralités et grands enjeux</h3>
-                        <img src="/media/microsite/nature-for-city-life/assets/img/leaf.png" style="width:25%;">
-                        <p style="color:#C2CC37;font-weight:600;margin-top:10px;">Semaine 1</p>
-                        <p class="under_s2">C'est quoi la Nature en ville et la biodiversité ?
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">La Nature en ville, une "vieille histoire" 
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Quelles sont les modifications actuelles de la Nature en ville ? 
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">En quoi les changements globaux affectent la question de Nature en ville ?
-                           <span> </span>
-                        </p>
-                        <br>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4" style="text-align:center;/*float:none;*/background-color:rgba(0,67,104,0);">
-                  <div class="thumbnail">
-                     <img src="/media/microsite/nature-for-city-life/assets/img/2.jpg" style="height:233px;">
-                     <div class="caption">
-                        <h3 style="font-family:'Carrois Gothic', sans-serif;color:#000;font-weight:bold;height:97px;">Les rôles de la Nature en ville</h3>
-                        <img src="/media/microsite/nature-for-city-life/assets/img/leaf.png" style="width:25%;">
-                        <p style="color:#C2CC37;font-weight:600;margin-top:10px;">Semaine 2</p>
-                        <p class="under_s2">Le Vivant en interactions
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Les services écosystémiques en ville
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Le rôle de la Nature en ville en lien avec l'environnement physique urbain
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Le rôle de la Nature en ville en lien avec le citadin et son bien-être
-                           <span> </span>
-                        </p>
-                        <br>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4" style="text-align:center;/*float:none;*/background-color:rgba(0,67,104,0);">
-                  <div class="thumbnail">
-                     <img src="/media/microsite/nature-for-city-life/assets/img/3.jpg" style="height:233px;">
-                     <div class="caption">
-                        <h3 style="font-family:'Carrois Gothic', sans-serif;color:#000;font-weight:bold;height:97px;">Comment faire la ville avec la Nature ?</h3>
-                        <img src="/media/microsite/nature-for-city-life/assets/img/leaf.png" style="width:25%;">
-                        <p style="color:#C2CC37;font-weight:600;margin-top:10px;">Semaine 3 et 4</p>
-                        <p class="under_s2">Nouveaux concepts et solutions pour la ville durable
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Évaluation environnementale et conception
-                           &nbsp; <span> </span>
-                        </p>
-                        <p class="under_s2">Droit environnemental, réglementation et planification 
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Mise en œuvre technique et gestion
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Attachements et mobilisations
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Limites, contraintes et incertitudes
-                           <span> </span>
-                        </p>
-                        <p class="under_s2">Co-construire la ville-nature de demain
-                           <span> </span>
-                        </p>
-                     </div>
-                  </div>
+             
+             
                </div>
             </div>
          </div>
@@ -216,12 +196,15 @@
 	  var micrositeName = "psytel"
 	  var imgSrc = "/assets/img/"
 	  var thumbnailStr = "thumbnailStr"
+	  var contentImg = "contentImg"
 	  var thumbnailObj
 	  var thumbnailObjObj
 	  var composeurUrlSrc = pathMedia + micrositeName + imgSrc +thumbnailStr
-	  var term = ".png"
+	  var composeurUrlSrc2 = pathMedia + micrositeName + imgSrc +contentImg
+	  var termPng = ".png"
+	  var termJpg = ".jpg"
 	  
-	  var thumbnailMOOC =  "<div class='col-md-3 col-sm-6 item col-xs-12'><div class='box'><img class='img-rounded' src="+composeurUrlSrc+i+term+"><h3 class='name' >"+tbTitle+"</h3> <p class='description' >"+tbText+"</p></div> </div>"
+	  var thumbnailMOOC =  "<div class='col-md-3 col-sm-6 item col-xs-12'><div class='box'><img class='img-rounded' src="+composeurUrlSrc+i+termPng+"><h3 class='name' >"+tbTitle+"</h3> <p class='description' >"+tbText+"</p></div> </div>"
 	  
 	  
 	  var thumbnailImgSrc
@@ -231,15 +214,30 @@
 	  
 	  var thumbnailChap =  "<div class='col-md-4 thumbnailImg'> <div class='thumbnail'><img class='tbImg'src="+thumbnailImgSrc+"><div class='caption'> <h3 >"+titleThumbnail+"</h3><img class='tbIc' src="+iconoImgSrc+"> <p class='weekSp'>"+titleWeeks+"</p><p class='under_s2'></p></div> </div></div>"
 	  
+	  
+	var titleThumb
+	var imgThumbSrcIcon
+	var imgThumbSrc
+	var pWeeksTitle
+	var pWeeksContent
+	  
+	  
+	  
+	  
+	  var thumbnailChapEsc =  "<div class='col-md-4' style='text-align:center;/*float:none;*/background-color:rgba(0,67,104,0);'><div class='thumbnail'>  <img src="+imgThumbSrc+ "class='thumbMg'> <div class='caption'> <h3 style='font-family:'Carrois Gothic', sans-serif;color:#000;font-weight:bold;height:97px;'> " + titleThumb + "</h3><img src="+imgThumbSrcIcon+" class='thumbMg'><p class='pWeeksTitle'>"+pWeeksTitle+"</p> <p class='pWeeksContent'>"+pWeeksContent+"</p></div>  </div>  </div>"
+  
+			
+	  
+	  
 	  	  
-	  var bindindFunction = function(){
+	  var bindindFunctionA = function(){
 		  iter =  objJson.container.section3.nrbThumbnail
 		  for (i = 0; i < iter ; i++ ){
 			thumbnailObj = objJson.container.section3.thumbnail[i]
 			<!-- thumbnailObj= JSON.parse(thumbnailObj) -->
 			tbTitle = thumbnailObj.title
 			tbText = thumbnailObj.text
-			thumbnailMOOC =  "<div class='col-md-3 col-sm-6 item col-xs-12'><div class='box'><img class='img-rounded' src="+composeurUrlSrc+i+term+"><h3 class='name' >"+tbTitle+"</h3> <p class='description' >"+tbText+"</p></div> </div>";
+			thumbnailMOOC =  "<div class='col-md-3 col-sm-6 item col-xs-12'><div class='box'><img class='img-rounded moocIco' src="+composeurUrlSrc+i+termPng+"><h3 class='name' >"+tbTitle+"</h3> <p class='description' >"+tbText+"</p></div> </div>";
 			$('#markMoock').append(thumbnailMOOC)
 			
 			}
@@ -247,6 +245,27 @@
 	  }
 
 	  
+	  var bindindFunctionB = function(){
+		  iter =  objJson.container.section4.nbrThumbnail
+		  for (i = 0; i < iter ; i++ ){
+			thumbnailObj = objJson.container.section4.thumbnail[i]
+			<!-- thumbnailObj= JSON.parse(thumbnailObj) -->
+			titleThumb = objJson.container.section4.thumbnail[i].title
+			pWeeksContent = objJson.container.section4.thumbnail[i].content
+			imgThumbSrcIcon
+			imgThumbSrc = composeurUrlSrc2+i+termJpg
+			pWeeksTitle = "Semaine"+"&nbsp"+i
+	 
+			
+			
+			thumbnailChapEsc =  "<div class='col-md-4' style='text-align:center;/*float:none;*/background-color:rgba(0,67,104,0);'><div class='thumbnail'>  <img src="+imgThumbSrc+ " class='thumbMg'> <div class='caption'> <h3 style='font-family:'Carrois Gothic', sans-serif;color:#000;font-weight:bold;height:97px;'> " + titleThumb + "</h3><img src="+imgThumbSrcIcon+" class='thumbMg'><p class='pWeeksTitle'>"+pWeeksTitle+"</p> <p class='pWeeksContent'>"+pWeeksContent+"</p></div>  </div>  </div>"
+			
+			$('#markWeeks').append(thumbnailChapEsc)
+			
+			}
+			
+	  }
+
 	  
 	  var objJson = {
   "page": {
@@ -327,7 +346,8 @@
 
 
 
-	   bindindFunction()
+	   bindindFunctionA()
+	   bindindFunctionB()
 	  </script>
    </body>
 </html>
