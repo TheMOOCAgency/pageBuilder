@@ -1,0 +1,79 @@
+{
+   "page":{
+      "title":"psytel - harcelement - sexuel",
+      "urlA":"mooc-harcelementsexuel-psytel.fr",
+      "urlB":"mooc-harcelementsexuel-psytel.the-mooc-agency.com",
+      "colorA":"#0c629",
+      "colorB":"#f4d028",
+      "font":"<link href=\"https://fonts.googleapis.com/css?family=Raleway&display=swap\" rel=\"stylesheet\">"
+   },
+   "container":{
+      "section1":{
+         "type":"\"mainSectionLoggin\"",
+         "display":true,
+         "videoBg":false,
+         "videoSrc":"none",
+         "title":{
+            "title1":"les agissements sexistes et harcelement sexuel",
+            "title2":"au sein de la fonction hospitalière publique"
+         },
+         "phraseIntroButtonUp":"Vous voulez suivre le MOOC?",
+         "scroll":true
+      },
+      "section2":{
+         "type":"videoteaser",
+         "display":true,
+         "title":"Découvrez la formation",
+         "videoSrc":"\"\"",
+         "textLeft":"Praesent ipsum odio, lobortis faucibus condimentum ut, interdum eu augue. Nullam quis odio libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vulputate volutpat lorem, in vehicula libero placerat sit amet. Duis tincidunt iaculis erat sed dignissim. Nullam et tristique tellus. Vivamus vitae augue at diam ultricies dignissim eget cursus augue. Nulla dignissim tempus metus ac pharetra. "
+      },
+      "section3":{
+         "type":"4type",
+         "title":"qu'est ce qu'un mooc?",
+         "nrbThumbnail":4,
+         "thumbnail":[
+            {
+               "title":"massive",
+               "text":"des cours pour tous les professionnels"
+            },
+            {
+               "title":"open",
+               "text":"dAccédez librement à un ensemble de ressources"
+            },
+            {
+               "title":"online",
+               "text":"Connectez - vous à tout moment où que vous soyez"
+            },
+            {
+               "title":"course",
+               "text":"Suivez un parcours pédagogique innovant vous permettant l'aquisition de connaissances"
+            }
+         ]
+      },
+      "section4":{
+         "type":"3typeThumbnail",
+         "nbrThumbnail":3,
+         "title":"contenu de la formation",
+         "elementShowArray":[
+
+         ],
+         "thumbnail":[
+            {
+               "title":"Des mots et des gestes",
+               "content":"In today's world internet is the most popular way of connecting with the people. At tutorialrepublic.com you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world."
+            },
+            {
+               "title":"Procédures, preuves et témoins",
+               "content":"In today's world internet is the most popular way of connecting with the people. At tutorialrepublic.com you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world."
+            },
+            {
+               "title":"Obligations de l'employeur",
+               "content":"In today's world internet is the most popular way of connecting with the people. At tutorialrepublic.com you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world."
+            }
+         ],
+         "footer":{
+            "title":"découvrez la formation"
+         }
+      }
+   }
+}
