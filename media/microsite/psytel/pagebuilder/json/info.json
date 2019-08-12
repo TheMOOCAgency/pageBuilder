@@ -1,6 +1,10 @@
 {
-   "page":{
+   "env":{
+      "mode":"developement"
+   },
+    "page":{
       "title":"psytel - harcelement - sexuel",
+      "micrositeOrg":"psytel",
       "urlA":"mooc-harcelementsexuel-psytel.fr",
       "urlB":"mooc-harcelementsexuel-psytel.the-mooc-agency.com",
       "colorA":"#0c629",
@@ -24,7 +28,7 @@
          "type":"videoteaser",
          "display":true,
          "title":"Découvrez la formation",
-         "videoSrc":"\"\"",
+         "videoSrc":"https://player.vimeo.com/video/352431392",
          "textLeft":"Praesent ipsum odio, lobortis faucibus condimentum ut, interdum eu augue. Nullam quis odio libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vulputate volutpat lorem, in vehicula libero placerat sit amet. Duis tincidunt iaculis erat sed dignissim. Nullam et tristique tellus. Vivamus vitae augue at diam ultricies dignissim eget cursus augue. Nulla dignissim tempus metus ac pharetra. "
       },
       "section3":{
