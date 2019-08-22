@@ -4,7 +4,7 @@
    },
     "page":{
       "title":"psytel - harcelement - sexuel",
-      "micrositeOrg":"psytel",
+      "micrositeOrg":"mooc-harcelementsexuel-psytel",
       "urlA":"mooc-harcelementsexuel-psytel.fr",
       "urlB":"mooc-harcelementsexuel-psytel.the-mooc-agency.com",
       "colorA":"#0c629",
@@ -33,7 +33,7 @@
       },
       "section3":{
          "type":"4type",
-         "title":"qu'est ce qu'un mooc?",
+         "title":"contenu de la formation",
          "nrbThumbnail":4,
          "thumbnail":[
             {

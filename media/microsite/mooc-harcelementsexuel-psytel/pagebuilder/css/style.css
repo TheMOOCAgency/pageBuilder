@@ -104,6 +104,33 @@ display: flex;
 	
 }
 
+
+
+.logoNav{
+height: 233% !important
+
+
+}
+
+
+.surligner{
+	color:#f4d028 !important;
+	
+}
+.jbo{
+	font-weight:bold
+	
+}
+
+.connexJumbo{
+	color: #0c6296;
+	background: white;
+
+border: solid #0c6296 2px;
+}
+
+
+
 /* navigation */
 
 
@@ -171,6 +198,8 @@ color:#f4d028
 	text-transform: full-width;
 	font-size: 2.5vmin;
 	margin: 5%;
+	font-weight: bold;
+
 }
 
 
@@ -274,7 +303,9 @@ background-color:rgba(0,67,104,0);
 
 .underSe4{
 	
-background-color:white;margin-top:0px;	
+background-color:white;
+margin-top:0px;
+text-align: center;	
 	
 }
 
@@ -300,6 +331,23 @@ background-color:white;margin-top:0px;
 	
 }
 
+
+.intro{
+padding-top: 0px;
+
+text-align: center;
+
+display: inline-flex;	
+	
+}
+
+.titleoffour{
+background: #f4d028;
+    width: max-content;
+
+}	
+	
+
 /* section se4___________________________________________________________ */
 
 
@@ -318,7 +366,7 @@ footer {
 
 #footerTitle{
 	
-	margin: 0% !important;margin-top: 2% !important;text-transform:uppercase;margin-bottom:50px;color:#C2CC37;font-family:'Open Sans', sans-serif;padding-top:0px;
+	margin: 0% !important;margin-top: 2% !important;text-transform:uppercase;margin-bottom:50px;color:white;font-family:'Open Sans', sans-serif;padding-top:0px;
 }
 
 .underW{

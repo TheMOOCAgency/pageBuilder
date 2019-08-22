@@ -6,8 +6,6 @@
          <meta name='viewport' content='width=device-width, initial-scale=1.0'>
          <title id='masterTitle'></title>
 		 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  
-  
       </head>
       <body>
          <nav id = "nav"class="navbar navbar-default">
@@ -23,13 +21,14 @@
                </div>
                <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
-                     <li><a class="navbar-brand"><img style="height: 233%;" src="media/microsite/psytel/assets/img/logo.png">                   
+                     <li><a class="navbar-brand "><img class="logoNav">                   
                         </a>
                      </li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
-                     <li><a href="../navbar-static-top/">Connexion</a></li>
-                     <li><a href="../navbar-fixed-top/">Inscription</a></li>
+					 <li><a href="../navbar-fixed-top/" class="rg">Inscription</a></li>
+                     <li><a href="../navbar-static-top/ " class="cx">Connexion</a></li>
+                    
                   </ul>
                </div>
                <!--/.nav-collapse -->             
@@ -44,8 +43,9 @@
                      <h1 id="mainTitle2" class="yellowBurn"></h1>
                      <p id="introConnect"></p>
                      <div class="col text-center">                  
-                        <button class="btn btn-default butn"> inscription </button>
-                        <button class="btn btn-default butn">connexion</button>               
+                        <button class="btn btn-default butn jbo cx connexJumbo">connexion</button>  
+                        <button class="btn btn-default butn jbo rg registerJumbo"> inscription </button>
+                                     
                      </div>
                   </div>
                </div>
@@ -92,7 +92,7 @@
                <div class="container underSe4" >
                   <div class="intro" style="padding-top:0px;">
                      <!-- <img src="/media/microsite/nature-for-city-life/assets/img/leaf.png" class="border_img" style="margin-top:50px;"> -->                      
-                     <h2 class="text-center" >QU'eST-CE QU'UN MOOC ?</h2>
+                     <h2 class="text-center titleoffour" >QU'eST-CE QU'UN MOOC ?</h2>
                   </div>
                   <div class="row people" id = "markMoock"> 
                   </div>
@@ -118,8 +118,10 @@
             </div>
             </div>          
          </footer>
-         <script>         
-					 var envDefault = "production"
+         <script>   
+				 var envDefault = "developement"
+					 var organisation = "mooc-harcelementsexuel-psytel"
+					 	var urlCompose
 					 var i 
                      var iter
                      var tbTitle
@@ -157,12 +159,14 @@
             
 					    
                      var getInfo= function(){
-					 micrositeName  = objJson.page.micrositeOrg
-					 envDefault  = objJson.env.mode
+					 <!-- micrositeName  = objJson.page.micrositeOrg -->
+					 <!-- envDefault  = objJson.env.mode  -->
+					 micrositeName  = organisation
 					 if (envDefault=='developement'){pathMedia =  "media/microsite/"}
 					 else{pathMedia =  "/media/microsite/"}
 					 composeurUrlSrc = pathMedia + micrositeName + folderPb + imgSrc +thumbnailStr
                     composeurUrlSrc2 = pathMedia + micrositeName + folderPb + imgSrc +contentImg
+					urlCompose =pathMedia + micrositeName + "/pagebuilder/json/info.json"
                      }
 						
 						
@@ -182,25 +186,33 @@
 						document.head.appendChild(script);
 						document.head.appendChild(script2);
 				
-						var lsSrcArr = ["psytel/pagebuilder/assets/bootstrap/css/bootstrap-theme.min.css","psytel/pagebuilder/assets/bootstrap/css/bootstrap.min.css","psytel/pagebuilder/css/style.css"]
+						var lsSrcArr = ["/pagebuilder/assets/bootstrap/css/bootstrap-theme.min.css","/pagebuilder/assets/bootstrap/css/bootstrap.min.css","/pagebuilder/css/style.css"]
 						var link1 = document.createElement('link');
 						link1.id = 'id1';
 						link1.rel = 'stylesheet';
-						link1.href = pathMedia+lsSrcArr[0];
+						link1.href = pathMedia+ micrositeName + lsSrcArr[0];
 						var link2 = document.createElement('link');
 						link2.id = 'id2';
 						link2.rel = 'stylesheet';
-						link2.href = pathMedia+lsSrcArr[1];
+						link2.href = pathMedia+ micrositeName + lsSrcArr[1];
 						var link3 = document.createElement('link');
 						link3.id = 'id3';
 						link3.rel = 'stylesheet';
-						link3.href = pathMedia+lsSrcArr[2];
+						link3.href = pathMedia+ micrositeName + lsSrcArr[2];
 						document.head.appendChild(link1);
 						document.head.appendChild(link2);
 						document.head.appendChild(link3);
 		}
 			
-                     var bindindFunctionA = function(){
+                     var bindindFunctionNav = function(){
+					 var logoSrc  = pathMedia + micrositeName + folderPb + imgSrc +"logo.png"
+						$(".logoNav").attr("src",logoSrc)
+            	
+            	}
+                     
+                   
+					 
+					 var bindindFunctionA = function(){
             	iter =  objJson.container.section3.nrbThumbnail
             	for (i = 0; i < iter ; i++ ){
             		thumbnailObj = objJson.container.section3.thumbnail[i]
@@ -285,10 +297,11 @@
                      }
             
             var masterBind= function(){     
-				getInfo();
+				
 				scriptLinkGenerator();
             	bindindFunctionA();
             	bindindFunctionB();
+            	bindindFunctionNav();
             	bindindFunctionFooter();
             	bindindFunctionMainSection();
             	bindindFunctionMainSectionVIdeoTitle();
@@ -301,9 +314,10 @@
                      var objJson
             
             
-            
+            getInfo();
             var a = new XMLHttpRequest();
-            a.open("GET","media/microsite/psytel/pagebuilder/json/info.json",true);
+
+            a.open("GET",urlCompose,true);
             a.onreadystatechange = function() {
               if( this.readyState == 4) {
             	if( this.status == 200) {
@@ -321,6 +335,7 @@
             		scrollTop: $("#se2").offset().top
             	}, 2000);
             });
-         </script>       
+			</script>       
       </body>
    </html>
+
