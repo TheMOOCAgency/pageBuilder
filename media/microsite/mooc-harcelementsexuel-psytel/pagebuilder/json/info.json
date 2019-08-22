@@ -1,0 +1,87 @@
+{
+   "env":{
+      "mode":"developement"
+   },
+    "page":{
+      "title":"Retrouvez la clé du bonheur",
+      "micrositeOrg":"mooc-harcelementsexuel-psytel",
+      "urlA":"mooc-harcelementsexuel-psytel.fr",
+      "urlB":"mooc-harcelementsexuel-psytel.the-mooc-agency.com",
+      "colorA":"#0c629",
+      "colorB":"#f4d028",
+      "font":"<link href=\"https://fonts.googleapis.com/css?family=Raleway&display=swap\" rel=\"stylesheet\">"
+   },
+   "container":{
+      "section1":{
+         "type":"\"mainSectionLoggin\"",
+         "display":true,
+         "videoBg":false,
+         "videoSrc":"none",
+         "title":{
+            "title1":"Retrouvez la clé du bonheur",
+            "title2":"au travail, maintenant"
+         },
+         "phraseIntroButtonUp":"Tous les ans, elles sont des centaines à retrouver  un travail qui leur plaît, une nouvelle voie, un nouveau soufﬂe professionnel. Pourquoi pas vous ? ",
+         "scroll":true
+      },
+      "section2":{
+         "type":"videoteaser",
+         "display":true,
+         "title":"Découvrez la formation",
+         "videoSrc":"https://player.vimeo.com/video/352431392",
+         "textLeft":"Praesent ipsum odio, lobortis faucibus condimentum ut, interdum eu augue. Nullam quis odio libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vulputate volutpat lorem, in vehicula libero placerat sit amet. Duis tincidunt iaculis erat sed dignissim. Nullam et tristique tellus. Vivamus vitae augue at diam ultricies dignissim eget cursus augue. Nulla dignissim tempus metus ac pharetra. "
+      },
+      "section3":{
+         "type":"4type",
+         "title":"Un programme en ligne conçu par des femmes, pour des femmes",
+         "edito":"5a conseil vous présente le premier programme de coaching professionnel en ligne au féminin, fondé sur des milliersd’heures d’accompagnement en gestion de carrière et de recherche en pédagogie et psychologie.", 
+		 "credit":"J’ai effectué un bilan de compétences et tous les entretiens étaient très enrichissants et complets. Ma conseillère était très disponible, à  l’écoute. Ses questions m’ont réfléchir et avancer.",
+		 "personna":"Guillemette, cliente bilan classique",
+		
+         "nrbThumbnail":4,
+         "thumbnail":[
+            {
+               "title":"massive",
+               "text":"des cours pour tous les professionnels"
+            },
+            {
+               "title":"open",
+               "text":"dAccédez librement à un ensemble de ressources"
+            },
+            {
+               "title":"online",
+               "text":"Connectez - vous à tout moment où que vous soyez"
+            },
+            {
+               "title":"course",
+               "text":"Suivez un parcours pédagogique innovant vous permettant l'aquisition de connaissances"
+            }
+         ]
+      },
+      "section4":{
+         "type":"3typeThumbnail",
+         "nbrThumbnail":3,
+         "title":"contenu de la formation",
+         "elementShowArray":[
+
+         ],
+         "thumbnail":[
+            {
+               "title":"Eprouvé",
+               "content":"L ’accompagnement est assuré par les coach expérimentées de  5aconseil, cabinet reconnu de gestion de carrière. "
+            },
+            {
+               "title":"Tout en ligne",
+               "content":"Un programme digital pour avancer à votre rythme, où vous voulez, quand vous voulez."
+            },
+            {
+               "title":"A votre écoute",
+               "content":"Votre vie, vos expériences, votre parcours : le digital et l’humain s’allient pour répondre à vos besoins."
+            }
+         ],
+         "footer":{
+            "title":"découvrez la formation"
+         }
+      }
+   }
+}
